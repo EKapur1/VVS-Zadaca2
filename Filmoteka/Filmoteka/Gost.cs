@@ -112,7 +112,7 @@ namespace Filmoteka
             throw new NotImplementedException();
         }
 
-        //Dodjjela random korisnickog imena i pasvorda
+        //Dodjjela random korisnickog imena i pasvorda, dio koda Meho
         public void AutomatskiKorisničkiPodaci()
         {
             //lista slova

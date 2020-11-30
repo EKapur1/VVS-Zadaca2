@@ -108,6 +108,7 @@ namespace Filmoteka
         /// </summary>
         /// <param name="glumci"></param>
         /// <returns></returns>
+        /// Emir Ensar i Meho
         public List<Film> DajSveFilmoveSGlumcima(List<string> glumci)
         {
             List<Film> filmoviFiltrirani = new List<Film>();
