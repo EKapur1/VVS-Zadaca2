@@ -56,7 +56,7 @@ namespace Filmoteka
         {
             System.DateTime trenutni = new System.DateTime();
             int razlika = ((trenutni.Year - noviRok.Year) * 12) + trenutni.Month - noviRok.Month;
-            if (razlika <= 0 || razlika >= 6) throw new InvalidOperationException("Nemoguce produyiti clanarinu!");
+            if (razlika <= 0 || razlika >= 6) throw new InvalidOperationException("Nemoguce produziti clanarinu!");
             else rokPretplate = noviRok;
         }
 
