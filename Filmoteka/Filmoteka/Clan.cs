@@ -54,9 +54,10 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         public void ProdužiRok(DateTime noviRok)
         {
-            //Emir Feratovic dio
-            
-            throw new NotImplementedException();
+            System.DateTime trenutni = new System.DateTime();
+            int razlika = ((trenutni.Year - noviRok.Year) * 12) + trenutni.Month - noviRok.Month;
+            if (razlika <= 0 || razlika >= 6) throw new InvalidOperationException("Nemoguce produyiti clanarinu!");
+            else rokPretplate = noviRok;
         }
 
         public void ResetujListe()
