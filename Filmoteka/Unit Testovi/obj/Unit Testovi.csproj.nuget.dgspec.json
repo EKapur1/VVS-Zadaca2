@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
+    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
         "projectName": "Filmoteka",
-        "projectPath": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-        "packagesPath": "C:\\Users\\EK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\obj\\",
+        "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
+    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
         "projectName": "Unit Testovi",
-        "projectPath": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-        "packagesPath": "C:\\Users\\EK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Unit Testovi\\obj\\",
+        "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,10 +78,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
-                "projectPath": "C:\\Users\\EK\\Desktop\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+              "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+                "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
               }
             }
           }
@@ -96,7 +93,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -130,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
