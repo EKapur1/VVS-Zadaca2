@@ -108,16 +108,23 @@ namespace Filmoteka
         /// </summary>
         /// <param name="glumci"></param>
         /// <returns></returns>
+        /// Emir Ensar i Meho
         public List<Film> DajSveFilmoveSGlumcima(List<string> glumci)
         {
             List<Film> filmoviFiltrirani = new List<Film>();
             if (filmovi.Count == 0) throw new InvalidOperationException("Lista filmova je prazna");
-            for(int i = 0; i < filmovi.Count; i++)
+
+            for (int i = 0; i < glumci.Count; i++)
             {
-                if (filmovi[i].Glumci.Equals(glumci))
+                for (int j = 0; j < filmovi.Count; j++)
                 {
-                    filmoviFiltrirani.Add(filmovi[i]);
+                    if (filmovi[j].Glumci.Contains(glumci[i]))
+                    {
+                        filmoviFiltrirani.Add(filmovi[i]);
+                    }
                 }
+
+               
             }
             return filmoviFiltrirani;
         }
@@ -127,6 +134,7 @@ namespace Filmoteka
             throw new NotImplementedException();
         }
 
+        
         #endregion
     }
 }
