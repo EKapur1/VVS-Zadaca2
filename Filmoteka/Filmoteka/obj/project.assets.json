@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {}
+    "C:\\Users\\Emir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "projectUniqueName": "C:\\Users\\Emir\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
       "projectName": "Filmoteka",
-      "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\obj\\",
+      "projectPath": "C:\\Users\\Emir\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "packagesPath": "C:\\Users\\Emir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emir\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

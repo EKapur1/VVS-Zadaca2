@@ -54,6 +54,7 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         public void ProdužiRok(DateTime noviRok)
         {
+            //Emir Feratovic dio
             throw new NotImplementedException();
         }
 
