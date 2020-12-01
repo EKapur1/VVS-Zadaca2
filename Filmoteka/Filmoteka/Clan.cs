@@ -57,7 +57,6 @@ namespace Filmoteka
             DateTime trenutni = DateTime.Today;
             var razlika = ((trenutni.Year - rokPretplate.Year) * 12) + trenutni.Month - rokPretplate.Month;
             var razlikagodina = trenutni.Year - rokPretplate.Year;
-            Console.WriteLine("RAZLIKAA:"+trenutni.Year); 
             if (razlika <= 0 || razlika >= 6) throw new InvalidOperationException("Nemoguce produziti clanarinu!");
             else rokPretplate = noviRok;
         }
