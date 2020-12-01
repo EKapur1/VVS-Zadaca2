@@ -136,6 +136,37 @@ namespace Unit_Testovi
             Assert.AreEqual(e.Item2, novi.Item2);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Neispravan format za username!")]
+        public void TestGostKonstruktorIzuzetakUsername()
+        {
+            var gost = new Gost("usr123", "pass123", "Ensar", "Prezime");
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Neispravan format za password!")]
+        public void TestGostKonstruktorIzuzetakPassword()
+        {
+            var gost = new Gost("useruser", "pass123", "Ensar", "Prezime");
+        }
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Neispravan format za ime!")]
+        public void TestGostKonstruktorIzuzetakIme()
+        {
+            var gost = new Gost("useruser", "ENKAPURSAR", "11Ensar", "Prezime");
+        }
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Neispravan format za prezime!")]
+        public void TestGostKonstruktorIzuzetakPrezime()
+        {
+            var gost = new Gost("useruser", "ENKAPURSAR", "Ensar", "11Prezime");
+        }
+        [TestMethod]
+        public void TestGostKonstruktor()
+        {
+            var gost = new Gost("useruser", "ENKAPURSAR", "Ensar", "Prezime");
+        }
+
         #endregion
     }
 }

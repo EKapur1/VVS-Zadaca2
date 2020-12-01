@@ -108,6 +108,7 @@ namespace Filmoteka
         /// <param name="ime"></param>
         /// <param name="prezime"></param>
         /// <returns></returns>
+        // * Metoda AutomatskiKorisničkiPodaci dio Ensar Kapur *
         public static Tuple<string, string> AutomatskiKorisničkiPodaci(string ime, string prezime)
         {
             if (!Regex.Match(ime, "^[A-Z][a-zA-Z]*$").Success || !Regex.Match(ime, "^[A-Z][a-zA-Z]*$").Success)
@@ -120,36 +121,6 @@ namespace Filmoteka
             return Tuple.Create<string, string>(korisnicko, sifra);
             
         }
-
-        //Dodjjela random korisnickog imena i pasvorda, dio koda Meho
-       /* public void AutomatskiKorisničkiPodaci()
-        {
-            //lista slova
-            char[] letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-
-            //random generator
-            Random rand = new Random();
-            string userName = "";
-            for (int j = 1; j <= 6; j++)
-            {
-                //random broj izmedju 0-25
-                int ranodmBroj = rand.Next(0, letters.Length - 1);
-
-                //dpdaj 
-                userName += letters[ranodmBroj];
-            }
-            this.username = userName;
-            string pass = "";
-            for (int j = 1; j <= 12; j++)
-            {
-                //random broj izmedju 0-25
-                int ranodmBroj = rand.Next(0, letters.Length - 1);
-
-                //dpdaj 
-                pass += letters[ranodmBroj];
-            }
-            this.password = password;
-        }*/
             #endregion
         }
 }
