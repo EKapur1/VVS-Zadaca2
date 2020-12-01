@@ -139,7 +139,6 @@ namespace Filmoteka
 
                
             }
-            Console.WriteLine(filmoviFiltrirani.Count);
             return filmoviFiltrirani;
         }
 
