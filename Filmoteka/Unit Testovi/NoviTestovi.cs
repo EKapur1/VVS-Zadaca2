@@ -1,4 +1,4 @@
-using Filmoteka;
+Ôªøusing Filmoteka;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -39,7 +39,7 @@ namespace Unit_Testovi
 
             filmoteka.DodajNastavak(film, 4.0, true);
 
-            Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.éanr == Zanr.Akcija && f.Glumci.Count == 2) != null);
+            Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.≈Ωanr == Zanr.Akcija && f.Glumci.Count == 2) != null);
         }
 
         [TestMethod]
@@ -52,7 +52,7 @@ namespace Unit_Testovi
 
             filmoteka.DodajNastavak(film, 4.0, false, new List<string>() { "Brad Pitt", "Chris Hemsworth", "Antonio Banderas" });
 
-            Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.éanr == Zanr.Akcija && f.Glumci.Count == 3) != null);
+            Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.≈Ωanr == Zanr.Akcija && f.Glumci.Count == 3) != null);
         }
 
         [TestMethod]
@@ -103,14 +103,21 @@ namespace Unit_Testovi
         }
 
         [TestMethod]
-        public void TestProduûiRokValidan()
+        public void TestProdu≈æiRokValidan()
         {
             DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
             DateTime novi = new DateTime(2020, 12, 25, 0, 0, 0, 0);
             var clan = new Clan("testic", "TESTICTESTIC","Emir", "Feratovic", pom);
-            clan.ProduûiRok(novi);
+            clan.Produ≈æiRok(novi);
             var provjera = clan.RokPretplate;
             Assert.IsTrue(provjera.Equals(novi));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Watchlista je prazna")]
+        public void TestAutomatskiKorisniƒçkiPodaciIzuzetak()
+        {
+            Tuple<string, string> e = Gost.AutomatskiKorisniƒçkiPodaci("3nsar", "Ka9ur5");
         }
 
         #endregion

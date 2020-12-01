@@ -33,3 +33,12 @@ C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3
 C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csproj.CoreCompileInputs.cache
 C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.dll
 C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.pdb
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.deps.json
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.dll
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.pdb
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csprojAssemblyReference.cache
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.AssemblyInfoInputs.cache
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.AssemblyInfo.cs
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csproj.CoreCompileInputs.cache
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.dll
+C:\Users\EK\Desktop\VVS-Zadaca2\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.pdb

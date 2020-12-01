@@ -55,6 +55,7 @@ namespace Filmoteka
         /// U suprotnom, formira se zbir svih ocjena filmova a zatim dijeli sa brojem filmova i vraća kao rezultat.
         /// </summary>
         /// <returns></returns>
+        // * Metoda DajSrednjuOcjenuSvihFilmova dio Ensar Kapur *
         public double DajSrednjuOcjenuSvihFilmova()
         {
             if (filmovi.Count == 0) throw new InvalidOperationException("Watchlista je prazna");

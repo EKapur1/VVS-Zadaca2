@@ -54,7 +54,7 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         
         
-        //Funkcija ProduziRok dio Emir Feratovic
+        // * Metoda ProduziRok dio Emir Feratovic *
         public void ProdužiRok(DateTime noviRok)
         {
             DateTime trenutni = DateTime.Today;

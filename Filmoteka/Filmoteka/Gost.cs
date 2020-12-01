@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Filmoteka
 {
@@ -109,11 +110,18 @@ namespace Filmoteka
         /// <returns></returns>
         public static Tuple<string, string> AutomatskiKorisničkiPodaci(string ime, string prezime)
         {
-            throw new NotImplementedException();
+            if (!Regex.Match(ime, "^[A-Z][a-zA-Z]*$").Success || !Regex.Match(ime, "^[A-Z][a-zA-Z]*$").Success)
+            {
+                throw new InvalidOperationException("Neispravni parametri");
+            }
+            else
+            {
+                return Tuple.Create<string, string>(ime, "");
+            }
         }
 
         //Dodjjela random korisnickog imena i pasvorda, dio koda Meho
-        public void AutomatskiKorisničkiPodaci()
+       /* public void AutomatskiKorisničkiPodaci()
         {
             //lista slova
             char[] letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
@@ -140,7 +148,7 @@ namespace Filmoteka
                 pass += letters[ranodmBroj];
             }
             this.password = password;
-        }
+        }*/
             #endregion
         }
 }

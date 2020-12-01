@@ -108,7 +108,7 @@ namespace Filmoteka
         /// </summary>
         /// <param name="glumci"></param>
         /// <returns></returns>
-        /// Emir Ensar i Meho
+        // * Metoda DajSveFilmoveSGlumcima dio Meho Aliefendic Ensar Kapur Emir Feratovic*
         public List<Film> DajSveFilmoveSGlumcima(List<string> glumci)
         {
             List<Film> filmoviFiltrirani = new List<Film>();
