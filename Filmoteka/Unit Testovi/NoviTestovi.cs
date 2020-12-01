@@ -67,17 +67,20 @@ namespace Unit_Testovi
         }
 
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException), "Lista filmova je prazna")]
         public void TestDajSveFilmoveSGLumcima()
         {
-            var filmoteka = new Filmoteka.Filmoteka();
-            filmoteka.Filmovi.Add(new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
-            filmoteka.Filmovi.Add(new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
-            filmoteka.Filmovi.Add(new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
+            var filmo = new Filmoteka.Filmoteka();
+            filmo.Filmovi.Add(new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
+            filmo.Filmovi.Add(new Film("Bajazit", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
+            filmo.Filmovi.Add(new Film("Otac na sluzbenom putu", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
+         
+
             List<Film> filmoviFiltrirani = new List<Film>();
             var glumci = new List<string>() { "Aaron Paul", "Dominic Cooper" };
-            filmoviFiltrirani = filmoteka.DajSveFilmoveSGlumcima(glumci);
-            Assert.AreEqual(3, filmoviFiltrirani.Count); 
+            filmoviFiltrirani = filmo.DajSveFilmoveSGlumcima(glumci);
+            Console.WriteLine(filmoviFiltrirani.Count);
+
+            Assert.IsTrue( filmo.DajSveFilmoveSGlumcima(glumci).Count==3); 
         }
 
         [TestMethod]

@@ -120,12 +120,26 @@ namespace Filmoteka
                 {
                     if (filmovi[j].Glumci.Contains(glumci[i]))
                     {
-                        filmoviFiltrirani.Add(filmovi[i]);
+                        Boolean ima = false;
+                        for (int k = 0; k < filmoviFiltrirani.Count; k++)
+                        {
+                           
+                            if (filmoviFiltrirani[k].Naziv.Equals(filmovi[j].Naziv))
+                            {
+                              
+                                ima = true;
+                                break;
+                            }
+                        }
+                        if(!ima)
+                            filmoviFiltrirani.Add(new Film(filmovi[j].Naziv, filmovi[j].Ocjena, filmovi[j].Žanr, filmovi[j].Glumci));
+                       
                     }
                 }
 
                
             }
+            Console.WriteLine(filmoviFiltrirani.Count);
             return filmoviFiltrirani;
         }
 
