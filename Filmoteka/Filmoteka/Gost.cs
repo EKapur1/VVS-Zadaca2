@@ -114,10 +114,11 @@ namespace Filmoteka
             {
                 throw new InvalidOperationException("Neispravni parametri");
             }
-            else
-            {
-                return Tuple.Create<string, string>(ime, "");
-            }
+            string korisnicko = ime.Substring(0, 2) + prezime + ime.Substring(2);
+            string sifra = korisnicko.ToUpper();
+
+            return Tuple.Create<string, string>(korisnicko, sifra);
+            
         }
 
         //Dodjjela random korisnickog imena i pasvorda, dio koda Meho

@@ -120,6 +120,22 @@ namespace Unit_Testovi
             Tuple<string, string> e = Gost.AutomatskiKorisničkiPodaci("3nsar", "Ka9ur5");
         }
 
+        [TestMethod]
+        public void TestAutomatskiKorisničkiPodaciUsername()
+        {
+            Tuple<string, string> e = Gost.AutomatskiKorisničkiPodaci("Ensar", "Kapur");
+            Tuple<string, string> novi = Tuple.Create("EnKapursar","ENKAPURSAR");
+            Assert.AreEqual(e.Item1, novi.Item1);
+        }
+
+        [TestMethod]
+        public void TestAutomatskiKorisničkiPodaciPassword()
+        {
+            Tuple<string, string> e = Gost.AutomatskiKorisničkiPodaci("Ensar", "Kapur");
+            Tuple<string, string> novi = Tuple.Create("EnKapursar", "ENKAPURSAR");
+            Assert.AreEqual(e.Item2, novi.Item2);
+        }
+
         #endregion
     }
 }
