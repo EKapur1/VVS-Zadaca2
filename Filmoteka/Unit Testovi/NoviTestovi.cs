@@ -83,6 +83,10 @@ namespace Unit_Testovi
             Assert.IsTrue( filmo.DajSveFilmoveSGlumcima(glumci).Count==3); 
         }
 
+
+        /// <summary>
+        /// Test metode DajSrednjuOcjenuSvihFilmova 
+        /// </summary>
         [TestMethod]
         public void TestDajSrednjuOcjenuSvihFilmova()
         {
@@ -94,11 +98,25 @@ namespace Unit_Testovi
             var s2 = nova.DajSrednjuOcjenuSvihFilmova();
             Assert.AreEqual(4.1, s2);
         }
+        /// <summary>
+        /// Test izuzetka da li je watchlist-a prazna
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Watchlista je prazna")]
         public void TestDajSrednjuOcjenuSvihFilmovaPrazan()
         {
             var list = new Watchlist("Lista", null);
+            var s = list.DajSrednjuOcjenuSvihFilmova();
+        }
+
+        /// <summary>
+        /// Test izuzetka za neispravno ime watchlist-e
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(FormatException), " Neispravno ime za watchlistu!")]
+        public void TestWatchlistKonstruktorIzuzetak()
+        {
+            var list = new Watchlist(" ", null);
             var s = list.DajSrednjuOcjenuSvihFilmova();
         }
 
@@ -113,13 +131,19 @@ namespace Unit_Testovi
             Assert.IsTrue(provjera.Equals(novi));
         }
 
+        /// <summary>
+        /// Test izuzetka za neispravne parametre metode AutomatskiKorisnickiPodaci
+        /// </summary>
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException), "Watchlista je prazna")]
+        [ExpectedException(typeof(InvalidOperationException), "Neispravni parametri")]
         public void TestAutomatskiKorisničkiPodaciIzuzetak()
         {
             Tuple<string, string> e = Gost.AutomatskiKorisničkiPodaci("3nsar", "Ka9ur5");
         }
 
+        /// <summary>
+        /// Test da li metoda AutomatskiKorisnickiPodaci vrati ispravan username
+        /// </summary>
         [TestMethod]
         public void TestAutomatskiKorisničkiPodaciUsername()
         {
@@ -128,6 +152,9 @@ namespace Unit_Testovi
             Assert.AreEqual(e.Item1, novi.Item1);
         }
 
+        /// <summary>
+        /// Test da li metoda AutomatskiKorisnickiPodaci vrati ispravan password
+        /// </summary>
         [TestMethod]
         public void TestAutomatskiKorisničkiPodaciPassword()
         {
@@ -136,6 +163,9 @@ namespace Unit_Testovi
             Assert.AreEqual(e.Item2, novi.Item2);
         }
 
+        /// <summary>
+        /// Test izuzetka kada je pogresan atribut username prilikom poziva konstruktora
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Neispravan format za username!")]
         public void TestGostKonstruktorIzuzetakUsername()
@@ -143,24 +173,36 @@ namespace Unit_Testovi
             var gost = new Gost("usr123", "pass123", "Ensar", "Prezime");
         }
 
+        /// <summary>
+        /// Test izuzetka kada je pogresan atribut password prilikom poziva konstruktora
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Neispravan format za password!")]
         public void TestGostKonstruktorIzuzetakPassword()
         {
             var gost = new Gost("useruser", "pass123", "Ensar", "Prezime");
         }
+        /// <summary>
+        /// Test izuzetka kada je pogresan atribut ime prilikom poziva konstruktora
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Neispravan format za ime!")]
         public void TestGostKonstruktorIzuzetakIme()
         {
             var gost = new Gost("useruser", "ENKAPURSAR", "11Ensar", "Prezime");
         }
+        /// <summary>
+        /// Test izuzetka kada je pogresan atribut prezime prilikom poziva konstruktora
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Neispravan format za prezime!")]
         public void TestGostKonstruktorIzuzetakPrezime()
         {
             var gost = new Gost("useruser", "ENKAPURSAR", "Ensar", "11Prezime");
         }
+        /// <summary>
+        /// Test konstruktora
+        /// </summary>
         [TestMethod]
         public void TestGostKonstruktor()
         {
