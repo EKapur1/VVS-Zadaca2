@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.6509999999999999" branch-rate="0.44" version="1.9" timestamp="1606783675" lines-covered="181" lines-valid="278" branches-covered="44" branches-valid="100">
+<coverage line-rate="0.6498" branch-rate="0.44" version="1.9" timestamp="1606784049" lines-covered="180" lines-valid="277" branches-covered="44" branches-valid="100">
   <sources>
     <source>C:\Users\Emir\</source>
   </sources>
   <packages>
-    <package name="Filmoteka" line-rate="0.5963" branch-rate="0.4782" complexity="120">
+    <package name="Filmoteka" line-rate="0.5943999999999999" branch-rate="0.4782" complexity="120">
       <classes>
-        <class name="Filmoteka.Clan" filename="Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.5652" branch-rate="0.5" complexity="9">
+        <class name="Filmoteka.Clan" filename="Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.5454" branch-rate="0.5" complexity="9">
           <methods>
             <method name="get_Watchliste" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -18,28 +18,27 @@
                 <line number="23" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="ProdužiRok" signature="(System.DateTime)" line-rate="0.875" branch-rate="0.5" complexity="4">
+            <method name="ProdužiRok" signature="(System.DateTime)" line-rate="0.8571" branch-rate="0.5" complexity="4">
               <lines>
                 <line number="56" hits="1" branch="False" />
                 <line number="57" hits="1" branch="False" />
                 <line number="58" hits="1" branch="False" />
                 <line number="59" hits="1" branch="False" />
-                <line number="60" hits="1" branch="False" />
-                <line number="61" hits="0" branch="True" condition-coverage="50% (2/4)">
+                <line number="60" hits="0" branch="True" condition-coverage="50% (2/4)">
                   <conditions>
-                    <condition number="103" type="jump" coverage="50%" />
-                    <condition number="119" type="jump" coverage="50%" />
+                    <condition number="72" type="jump" coverage="50%" />
+                    <condition number="86" type="jump" coverage="50%" />
                   </conditions>
                 </line>
+                <line number="61" hits="1" branch="False" />
                 <line number="62" hits="1" branch="False" />
-                <line number="63" hits="1" branch="False" />
               </lines>
             </method>
             <method name="ResetujListe" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
+                <line number="65" hits="0" branch="False" />
                 <line number="66" hits="0" branch="False" />
                 <line number="67" hits="0" branch="False" />
-                <line number="68" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String,System.String,System.String,System.String,System.DateTime)" line-rate="1" branch-rate="1" complexity="1">
@@ -68,18 +67,17 @@
             <line number="57" hits="1" branch="False" />
             <line number="58" hits="1" branch="False" />
             <line number="59" hits="1" branch="False" />
-            <line number="60" hits="1" branch="False" />
-            <line number="61" hits="0" branch="True" condition-coverage="50% (2/4)">
+            <line number="60" hits="0" branch="True" condition-coverage="50% (2/4)">
               <conditions>
-                <condition number="103" type="jump" coverage="50%" />
-                <condition number="119" type="jump" coverage="50%" />
+                <condition number="72" type="jump" coverage="50%" />
+                <condition number="86" type="jump" coverage="50%" />
               </conditions>
             </line>
+            <line number="61" hits="1" branch="False" />
             <line number="62" hits="1" branch="False" />
-            <line number="63" hits="1" branch="False" />
+            <line number="65" hits="0" branch="False" />
             <line number="66" hits="0" branch="False" />
             <line number="67" hits="0" branch="False" />
-            <line number="68" hits="0" branch="False" />
             <line number="31" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
             <line number="33" hits="1" branch="False" />

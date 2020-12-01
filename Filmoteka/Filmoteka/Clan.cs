@@ -52,6 +52,9 @@ namespace Filmoteka
         /// ili je prošlo više od 6 mjeseci od isticanja, potrebno je baciti izuzetak.
         /// </summary>
         /// <param name="noviRok"></param>
+        
+        
+        //Funkcija ProduziRok dio Emir Feratovic
         public void ProdužiRok(DateTime noviRok)
         {
             DateTime trenutni = DateTime.Today;

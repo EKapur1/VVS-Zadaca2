@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6510791366906474" branch-rate="0.44" lines-covered="181" lines-valid="278" branches-covered="44" branches-valid="100" complexity="135" version="0" timestamp="1606787275">
+<coverage line-rate="0.6498194945848376" branch-rate="0.44" lines-covered="180" lines-valid="277" branches-covered="44" branches-valid="100" complexity="135" version="0" timestamp="1606787649">
   <sources>
     <source>C:\Users\Emir\</source>
   </sources>
   <packages>
-    <package name="Filmoteka" line-rate="0.5963302752293578" branch-rate="0.4782608695652174" complexity="120">
+    <package name="Filmoteka" line-rate="0.5944700460829493" branch-rate="0.4782608695652174" complexity="120">
       <classes>
-        <class name="Filmoteka.Clan" filename="C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.5652173913043478" branch-rate="0.5" complexity="9">
+        <class name="Filmoteka.Clan" filename="C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.5454545454545454" branch-rate="0.5" complexity="9">
           <methods>
             <method name="get_Watchliste" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -19,23 +19,22 @@
                 <line number="23" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="ProdužiRok" signature="(...)" line-rate="0.875" branch-rate="0.5" complexity="4">
+            <method name="ProdužiRok" signature="(...)" line-rate="0.8571428571428571" branch-rate="0.5" complexity="4">
               <lines>
                 <line number="56" hits="1" branch="false" />
                 <line number="57" hits="1" branch="false" />
                 <line number="58" hits="1" branch="false" />
                 <line number="59" hits="1" branch="false" />
-                <line number="60" hits="1" branch="false" />
-                <line number="61" hits="0" branch="true" condition-coverage="50% (2/4)" />
+                <line number="60" hits="0" branch="true" condition-coverage="50% (2/4)" />
+                <line number="61" hits="1" branch="false" />
                 <line number="62" hits="1" branch="false" />
-                <line number="63" hits="1" branch="false" />
               </lines>
             </method>
             <method name="ResetujListe" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
+                <line number="65" hits="0" branch="false" />
                 <line number="66" hits="0" branch="false" />
                 <line number="67" hits="0" branch="false" />
-                <line number="68" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -74,13 +73,12 @@
             <line number="57" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
             <line number="59" hits="1" branch="false" />
-            <line number="60" hits="1" branch="false" />
-            <line number="61" hits="0" branch="true" condition-coverage="50% (2/4)" />
+            <line number="60" hits="0" branch="true" condition-coverage="50% (2/4)" />
+            <line number="61" hits="1" branch="false" />
             <line number="62" hits="1" branch="false" />
-            <line number="63" hits="1" branch="false" />
+            <line number="65" hits="0" branch="false" />
             <line number="66" hits="0" branch="false" />
             <line number="67" hits="0" branch="false" />
-            <line number="68" hits="0" branch="false" />
           </lines>
         </class>
         <class name="Filmoteka.Film" filename="C:\Users\Emir\Source\Repos\VVS-Zadaca2\Filmoteka\Filmoteka\Film.cs" line-rate="0.8484848484848485" branch-rate="0.5833333333333334" complexity="18">
