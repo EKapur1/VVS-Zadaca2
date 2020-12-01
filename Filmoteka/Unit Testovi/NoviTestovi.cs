@@ -216,7 +216,10 @@ namespace Unit_Testovi
         [ExpectedException(typeof(InvalidOperationException), "Nemoguce produziti clanarinu!")]
         public void TestProduziRokIzuzetak()
         {
-            
+            DateTime pom = new DateTime(2020, 12, 20, 0, 0, 0, 0);
+            DateTime novi = new DateTime(2020, 12, 25, 0, 0, 0, 0);
+            var clan = new Clan("testic", "TESTICTESTIC", "Emir", "Feratovic", pom);
+            clan.ProdužiRok(novi);
         }
 
         #endregion
