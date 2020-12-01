@@ -209,6 +209,16 @@ namespace Unit_Testovi
             var gost = new Gost("useruser", "ENKAPURSAR", "Ensar", "Prezime");
         }
 
+        /// <summary>
+        /// Test izuzetka za metodu ProduziRokIzuzetka
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Nemoguce produziti clanarinu!")]
+        public void TestProduziRokIzuzetak()
+        {
+            
+        }
+
         #endregion
     }
 }
