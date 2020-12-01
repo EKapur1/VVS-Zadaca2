@@ -222,6 +222,27 @@ namespace Unit_Testovi
             clan.ProdužiRok(novi);
         }
 
+        /// <summary>
+        /// Test konstruktora klase Clan
+        /// </summary>
+        [TestMethod]
+        public void TestClanKonstruktor()
+        {
+            DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
+            var clan = new Clan(pom);
+            Assert.IsTrue(pom.Equals(clan.RokPretplate));
+        }
+        /// <summary>
+        /// Test metode ResetujListe klase Clan
+        /// </summary>
+        [TestMethod]
+        public void TestResetujListe()
+        {
+            DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
+            var clan = new Clan(pom);
+            clan.ResetujListe();
+            Assert.IsTrue(clan.Watchliste.Count.Equals(0));
+        }
         #endregion
     }
 }

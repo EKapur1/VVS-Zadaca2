@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.7392739273927392" branch-rate="0.62" lines-covered="224" lines-valid="303" branches-covered="62" branches-valid="100" complexity="144" version="0" timestamp="1606865885">
+<coverage line-rate="0.7866242038216561" branch-rate="0.62" lines-covered="247" lines-valid="314" branches-covered="62" branches-valid="100" complexity="146" version="0" timestamp="1606867123">
   <sources>
     <source>C:\Users\Emir\</source>
   </sources>
   <packages>
-    <package name="Filmoteka" line-rate="0.697560975609756" branch-rate="0.6739130434782609" complexity="119">
+    <package name="Filmoteka" line-rate="0.7560975609756098" branch-rate="0.6739130434782609" complexity="119">
       <classes>
-        <class name="Filmoteka.Clan" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.5909090909090909" branch-rate="1" complexity="9">
+        <class name="Filmoteka.Clan" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Filmoteka\Clan.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
-            <method name="get_Watchliste" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Watchliste" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="0" branch="false" />
+                <line number="19" hits="1" branch="false" />
               </lines>
             </method>
             <method name="get_RokPretplate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="23" hits="1" branch="false" />
+                <line number="23" hits="2" branch="false" />
               </lines>
             </method>
             <method name="ProdužiRok" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
@@ -30,11 +30,11 @@
                 <line number="65" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="ResetujListe" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="ResetujListe" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="0" branch="false" />
-                <line number="69" hits="0" branch="false" />
-                <line number="70" hits="0" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -46,29 +46,29 @@
                 <line number="35" hits="2" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="38" hits="0" branch="false" />
-                <line number="39" hits="0" branch="false" />
-                <line number="40" hits="0" branch="false" />
-                <line number="41" hits="0" branch="false" />
-                <line number="42" hits="0" branch="false" />
+                <line number="38" hits="2" branch="false" />
+                <line number="39" hits="2" branch="false" />
+                <line number="40" hits="2" branch="false" />
+                <line number="41" hits="2" branch="false" />
+                <line number="42" hits="2" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="0" branch="false" />
-            <line number="23" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="23" hits="2" branch="false" />
             <line number="31" hits="2" branch="false" />
             <line number="32" hits="2" branch="false" />
             <line number="33" hits="2" branch="false" />
             <line number="34" hits="2" branch="false" />
             <line number="35" hits="2" branch="false" />
-            <line number="38" hits="0" branch="false" />
-            <line number="39" hits="0" branch="false" />
-            <line number="40" hits="0" branch="false" />
-            <line number="41" hits="0" branch="false" />
-            <line number="42" hits="0" branch="false" />
+            <line number="38" hits="2" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="40" hits="2" branch="false" />
+            <line number="41" hits="2" branch="false" />
+            <line number="42" hits="2" branch="false" />
             <line number="59" hits="2" branch="false" />
             <line number="60" hits="2" branch="false" />
             <line number="61" hits="2" branch="false" />
@@ -76,9 +76,9 @@
             <line number="63" hits="3" branch="true" condition-coverage="100% (4/4)" />
             <line number="64" hits="1" branch="false" />
             <line number="65" hits="1" branch="false" />
-            <line number="68" hits="0" branch="false" />
-            <line number="69" hits="0" branch="false" />
-            <line number="70" hits="0" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
           </lines>
         </class>
         <class name="Filmoteka.Film" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Filmoteka\Film.cs" line-rate="0.8484848484848485" branch-rate="0.5833333333333334" complexity="18">
@@ -389,7 +389,7 @@
             <line number="147" hits="3" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Gost" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Filmoteka\Gost.cs" line-rate="0.8367346938775511" branch-rate="0.90625" complexity="39">
+        <class name="Filmoteka.Gost" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Filmoteka\Gost.cs" line-rate="0.8979591836734694" branch-rate="0.90625" complexity="39">
           <methods>
             <method name="get_Username" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -481,11 +481,11 @@
                 <line number="88" hits="3" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="90" hits="0" branch="false" />
-                <line number="91" hits="0" branch="false" />
-                <line number="93" hits="0" branch="false" />
+                <line number="90" hits="2" branch="false" />
+                <line number="91" hits="2" branch="false" />
+                <line number="93" hits="2" branch="false" />
               </lines>
             </method>
           </methods>
@@ -528,9 +528,9 @@
             <line number="86" hits="5" branch="false" />
             <line number="87" hits="4" branch="false" />
             <line number="88" hits="3" branch="false" />
-            <line number="90" hits="0" branch="false" />
-            <line number="91" hits="0" branch="false" />
-            <line number="93" hits="0" branch="false" />
+            <line number="90" hits="2" branch="false" />
+            <line number="91" hits="2" branch="false" />
+            <line number="93" hits="2" branch="false" />
             <line number="113" hits="3" branch="false" />
             <line number="114" hits="3" branch="true" condition-coverage="100% (4/4)" />
             <line number="115" hits="1" branch="false" />
@@ -631,7 +631,7 @@
         </class>
       </classes>
     </package>
-    <package name="Unit Testovi" line-rate="0.826530612244898" branch-rate="0" complexity="25">
+    <package name="Unit Testovi" line-rate="0.8440366972477065" branch-rate="0" complexity="27">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\Emir\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -645,7 +645,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.8350515463917526" branch-rate="0" complexity="24">
+        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.8518518518518519" branch-rate="0" complexity="26">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="0.75" branch-rate="1" complexity="1">
               <lines>
@@ -816,6 +816,25 @@
                 <line number="223" hits="0" branch="false" />
               </lines>
             </method>
+            <method name="TestClanKonstruktor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="230" hits="1" branch="false" />
+                <line number="231" hits="1" branch="false" />
+                <line number="232" hits="1" branch="false" />
+                <line number="233" hits="1" branch="false" />
+                <line number="234" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestResetujListe" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="240" hits="1" branch="false" />
+                <line number="241" hits="1" branch="false" />
+                <line number="242" hits="1" branch="false" />
+                <line number="243" hits="1" branch="false" />
+                <line number="244" hits="1" branch="false" />
+                <line number="245" hits="1" branch="false" />
+              </lines>
+            </method>
           </methods>
           <lines>
             <line number="15" hits="1" branch="false" />
@@ -915,6 +934,17 @@
             <line number="221" hits="1" branch="false" />
             <line number="222" hits="1" branch="false" />
             <line number="223" hits="0" branch="false" />
+            <line number="230" hits="1" branch="false" />
+            <line number="231" hits="1" branch="false" />
+            <line number="232" hits="1" branch="false" />
+            <line number="233" hits="1" branch="false" />
+            <line number="234" hits="1" branch="false" />
+            <line number="240" hits="1" branch="false" />
+            <line number="241" hits="1" branch="false" />
+            <line number="242" hits="1" branch="false" />
+            <line number="243" hits="1" branch="false" />
+            <line number="244" hits="1" branch="false" />
+            <line number="245" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
