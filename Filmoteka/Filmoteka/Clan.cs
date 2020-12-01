@@ -54,8 +54,10 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         public void ProdužiRok(DateTime noviRok)
         {
-            System.DateTime trenutni = new System.DateTime();
-            int razlika = ((trenutni.Year - noviRok.Year) * 12) + trenutni.Month - noviRok.Month;
+            DateTime trenutni = DateTime.Today;
+            var razlika = ((trenutni.Year - rokPretplate.Year) * 12) + trenutni.Month - rokPretplate.Month;
+            var razlikagodina = trenutni.Year - rokPretplate.Year;
+            Console.WriteLine("RAZLIKAA:"+trenutni.Year); 
             if (razlika <= 0 || razlika >= 6) throw new InvalidOperationException("Nemoguce produziti clanarinu!");
             else rokPretplate = noviRok;
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qmIOZenArdUNXGH2DJCLkZ7SlocEao7Kd6XxyfU8z7Zfip2QPREzy32555p6gYgqEpw0CjHe4JP4Lj0OXMLX0A==",
+  "dgSpecHash": "XkICBFTViTXroJj6NLX+7yBL2s6mYYrS1PiwhifAJ9jboTAPJnL8p2cMVKH/MVmuotuM8GNcZiy/ZIuaovP8nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+  "projectFilePath": "C:\\Users\\Emir\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

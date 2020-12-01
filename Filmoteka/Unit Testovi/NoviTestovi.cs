@@ -101,6 +101,18 @@ namespace Unit_Testovi
             var list = new Watchlist("Lista", null);
             var s = list.DajSrednjuOcjenuSvihFilmova();
         }
+
+        [TestMethod]
+        public void TestProdužiRokValidan()
+        {
+            DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
+            DateTime novi = new DateTime(2020, 12, 25, 0, 0, 0, 0);
+            var clan = new Clan("testic", "TESTICTESTIC","Emir", "Feratovic", pom);
+            clan.ProdužiRok(novi);
+            var provjera = clan.RokPretplate;
+            Assert.IsTrue(provjera.Equals(novi));
+        }
+
         #endregion
     }
 }

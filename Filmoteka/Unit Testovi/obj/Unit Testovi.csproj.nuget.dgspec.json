@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
+    "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+    "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "projectUniqueName": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
         "projectName": "Filmoteka",
-        "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\obj\\",
+        "projectPath": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "packagesPath": "C:\\Users\\Emir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,17 +56,17 @@
         }
       }
     },
-    "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
+    "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "projectUniqueName": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
         "projectName": "Unit Testovi",
-        "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\obj\\",
+        "projectPath": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "packagesPath": "C:\\Users\\Emir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Unit Testovi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
-                "projectPath": "C:\\Users\\Home\\source\\repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+              "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+                "projectPath": "C:\\Users\\Emir\\Source\\Repos\\VVS-Zadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
               }
             }
           }
