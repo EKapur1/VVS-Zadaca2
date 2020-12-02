@@ -18,8 +18,8 @@ namespace Unit_Testovi
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Filmovi.Add(film);
 
-            IReziser r = new Reziser();
-
+            IReziser r = new Stub();
+            
             List<Film> rezirani = filmoteka.DajSveFilmoveZaRezisera(r);
 
             Assert.IsTrue(rezirani.Contains(film));
