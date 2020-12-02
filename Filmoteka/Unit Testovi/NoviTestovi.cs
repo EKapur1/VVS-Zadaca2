@@ -243,6 +243,116 @@ namespace Unit_Testovi
             clan.ResetujListe();
             Assert.IsTrue(clan.Watchliste.Count.Equals(0));
         }
+
+        /// <summary>
+        /// Test metode DodajWatchlistu klase Filmoteka
+        /// </summary>
+        [TestMethod]
+        public void TestDodajWatchlistu()
+        {
+            var filmoteka = new Filmoteka.Filmoteka();
+            DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
+            var clan = new Clan("testic", "TESTICTESTIC", "Emir", "Feratovic", pom);
+            List<Film> filmovi = new List<Film> { new Film("Testic", 2.5, Zanr.Akcija, new List<string> { "Mustafa Nadarevic" })};
+            filmoteka.DodajWatchlistu(clan, filmovi, "Testna");
+            Assert.IsTrue(clan.Watchliste.Count.Equals(1));
+        }
+
+        /// <summary>
+        /// Test metode DodajWatchlistu klase Filmoteka sa greskom
+        /// </summary>
+        ///string name, double rating, Zanr genre, List<string> actors
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentException), "Naziv ne smije biti prazan!")]
+        public void TestDodajWatchlistuNevalidnoIme()
+        {
+            var filmoteka = new Filmoteka.Filmoteka();
+            DateTime pom = new DateTime(2020, 9, 20, 0, 0, 0, 0);
+            var clan = new Clan("testic", "TESTICTESTIC", "Emir", "Feratovic", pom);
+            List<Film> filmovi = new List<Film> {new Film("", 2.5, Zanr.Akcija, new List<string> { "Mustafa Nadarevic" }) };
+            filmoteka.DodajWatchlistu(clan, filmovi, "Testna");
+        }
+
+        /// <summary>
+        ///  testiranje dodavanja gosta u listu
+        /// </summary>
+        [TestMethod]
+        public void TestRadSaKorisnicima1()
+        {
+            Gost gost1 = new Gost("testic", "TESTICTESTIC", "Emir", "Feratovic");
+
+            Film film1 = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            var filmoteka1 = new Filmoteka.Filmoteka();
+            filmoteka1.Filmovi.Add(film1);
+            filmoteka1.RadSaKorisnicima(gost1, 0);
+
+            Assert.IsTrue(filmoteka1.Gosti.Count==1);
+        }
+
+        /// <summary>
+        /// testiranje izbaccivanja gosta iz liste 
+        /// </summary>
+        [TestMethod]
+        public void TestRadSaKorisnicima2()
+        {
+            Gost gost1 = new Gost("testic", "TESTICTESTIC", "Meho", "Aliefendic");
+
+            Film film1 = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            var filmoteka1 = new Filmoteka.Filmoteka();
+            filmoteka1.Filmovi.Add(film1);
+            filmoteka1.RadSaKorisnicima(gost1, 0);
+            Console.Write("FILMOTEKA CLAN: " + filmoteka1.Gosti[0]);
+            filmoteka1.RadSaKorisnicima(gost1, 1);
+            Console.Write("FILMOTEKA VELICINA: " + filmoteka1.Gosti.Count);
+            Assert.IsTrue(0 == filmoteka1.Gosti.Count);
+        }
+
+        /// <summary>
+        /// metodat baca iuztetak kada se dodaje isti korisnik
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), " Korisnik već postoji u sistemu!")]
+        public void TestRadSaKorisnicima3()
+        {
+            Gost gost1 = new Gost("testic", "TESTICTESTIC", "Emir", "Feratovic");
+
+            Film film1 = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            var filmoteka1 = new Filmoteka.Filmoteka();
+            filmoteka1.Filmovi.Add(film1);
+            filmoteka1.RadSaKorisnicima(gost1, 0);
+            filmoteka1.RadSaKorisnicima(gost1, 0);
+        }
+
+        /// <summary>
+        /// metodat baca iuztetak kada se brise  korisnik kiji ne postoji u listi
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException), "Korisnik ne postoji u sistemu!")]
+        public void TestRadSaKorisnicima4()
+        {
+            Gost gost1 = new Gost("testic", "TESTICTESTIC", "Emir", "Feratovic");
+
+            Film film1 = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            var filmoteka1 = new Filmoteka.Filmoteka();
+            filmoteka1.Filmovi.Add(film1);
+            filmoteka1.RadSaKorisnicima(gost1, 1);
+        }
+
+        /// <summary>
+        /// test metode DajSveFilmoveSGLumcima u slucaju kada baca izuzetak
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Lista filmova je prazna")]
+        public void TestDajSveFilmoveSGLumcima2()
+        {
+            var filmo = new Filmoteka.Filmoteka();
+
+            List<Film> filmoviFiltrirani = new List<Film>();
+            var glumci = new List<string>() { "Aaron Paul", "Dominic Cooper" };
+            filmoviFiltrirani = filmo.DajSveFilmoveSGlumcima(glumci);
+            Console.WriteLine(filmoviFiltrirani.Count);
+        }
+
         #endregion
     }
 }
