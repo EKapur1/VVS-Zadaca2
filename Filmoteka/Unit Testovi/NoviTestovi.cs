@@ -67,7 +67,7 @@ namespace Unit_Testovi
         }
 
         [TestMethod]
-        public void TestDajSveFilmoveSGLumcima()
+        public void TestDajSveFilmoveSGLumcima2()
         {
             var filmo = new Filmoteka.Filmoteka();
             filmo.Filmovi.Add(new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }));
@@ -277,7 +277,7 @@ namespace Unit_Testovi
         ///  testiranje dodavanja gosta u listu
         /// </summary>
         [TestMethod]
-        public void TestRadSaKorisnicima1()
+        public void TestRadSaKorisnicima2()
         {
             Gost gost1 = new Gost("testic", "TESTICTESTIC", "Emir", "Feratovic");
 
@@ -285,7 +285,6 @@ namespace Unit_Testovi
             var filmoteka1 = new Filmoteka.Filmoteka();
             filmoteka1.Filmovi.Add(film1);
             filmoteka1.RadSaKorisnicima(gost1, 0);
-
             Assert.IsTrue(filmoteka1.Gosti.Count==1);
         }
 
@@ -293,17 +292,16 @@ namespace Unit_Testovi
         /// testiranje izbaccivanja gosta iz liste 
         /// </summary>
         [TestMethod]
-        public void TestRadSaKorisnicima2()
+        public void TestRadSaKorisnicima1()
         {
             Gost gost1 = new Gost("testic", "TESTICTESTIC", "Meho", "Aliefendic");
 
             Film film1 = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
             var filmoteka1 = new Filmoteka.Filmoteka();
+            filmoteka1.Filmovi.Clear();
             filmoteka1.Filmovi.Add(film1);
             filmoteka1.RadSaKorisnicima(gost1, 0);
-            Console.Write("FILMOTEKA CLAN: " + filmoteka1.Gosti[0]);
             filmoteka1.RadSaKorisnicima(gost1, 1);
-            Console.Write("FILMOTEKA VELICINA: " + filmoteka1.Gosti.Count);
             Assert.IsTrue(0 == filmoteka1.Gosti.Count);
         }
 
@@ -343,7 +341,7 @@ namespace Unit_Testovi
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException), "Lista filmova je prazna")]
-        public void TestDajSveFilmoveSGLumcima2()
+        public void TestDajSveFilmoveSGLumcima1()
         {
             var filmo = new Filmoteka.Filmoteka();
 
@@ -351,6 +349,86 @@ namespace Unit_Testovi
             var glumci = new List<string>() { "Aaron Paul", "Dominic Cooper" };
             filmoviFiltrirani = filmo.DajSveFilmoveSGlumcima(glumci);
             Console.WriteLine(filmoviFiltrirani.Count);
+        }
+
+        /// <summary>
+        /// test getera klase Watchlist
+        /// </summary>
+        [TestMethod]
+        public void TestWatchlistGetters()
+        {
+            List<Film> filmovi = new List<Film> { new Film("Testic", 2.5, Zanr.Akcija, new List<string> { "Mustafa Nadarevic" }) };
+            var wlista = new Watchlist("Testna",filmovi);
+            Assert.IsTrue(wlista.Naziv.Equals("Testna"));
+            Assert.IsTrue(wlista.Filmovi.Equals(filmovi));
+        }
+
+        /// <summary>
+        /// test ocjena filma
+        /// </summary>
+        [TestMethod]
+        public void TestOcjenaFilma()
+        {
+            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            Assert.IsTrue(film.Glumci.Count.Equals(2));
+            Assert.IsTrue(film.Ocjena.Equals(3.5));
+            Assert.IsTrue(film.Naziv.Equals("Need For Speed"));
+        }
+
+
+        /// <summary>
+        /// test ocjena filma
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException), "Ocjena nije u dozvoljenom opsegu!")]
+        public void TestOcjenaFilmaNevalidna()
+        {
+            Film film = new Film("Need For Speed", -3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+        }
+
+        /// <summary>
+        /// test kada je ime glumca prazan string 
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException), "Ime glumca je prazno!")]
+        public void TestGlumciFilmaGreska()
+        {
+            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "", "Dominic Cooper" });
+        }
+
+        /// <summary>
+        /// test konstruktor sa null filma
+        /// </summary>
+        [TestMethod]
+        public void TestKonstruktorFilmaNull()
+        {
+            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija,null);
+            Assert.IsTrue(film.Glumci.Count.Equals(0));
+        }
+
+        /// <summary>
+        /// test id filma
+        /// </summary>
+        [TestMethod]
+        public void TestFilmIdGet()
+        {
+            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, null);
+            var x = film.Id;
+            Assert.IsTrue(film.Id.Equals(x));
+        }
+
+        /// <summary>
+        /// test geteri Gosta
+        /// </summary>
+        [TestMethod]
+        public void TestGostGetters()
+        {
+            var gost = new Gost("testtest", "TESTTESTTEST", "Test", "Testativc");
+            Assert.IsTrue(gost.Ime.Equals("Test"));
+            Assert.IsTrue(gost.Prezime.Equals("Testativc"));
+            Assert.IsTrue(gost.Username.Equals("testtest"));
+            var x= gost.Password;
+            Assert.IsTrue(gost.Password.Equals(x));
         }
 
         #endregion
