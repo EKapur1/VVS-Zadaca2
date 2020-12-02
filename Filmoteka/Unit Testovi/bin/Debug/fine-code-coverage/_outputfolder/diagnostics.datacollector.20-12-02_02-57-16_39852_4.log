@@ -1,0 +1,372 @@
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.525, 825953962533, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,55902,--parentprocessid,5348,--diag,C:\Users\Emir\source\repos\VVS-ZADACA2\Filmoteka\Unit Testovi\bin\Debug\fine-code-coverage\_outputfolder\diagnostics.datacollector.20-12-02_02-57-16_39852_4.log,--tracelevel,4
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.533, 825953974033, datacollector.dll, DataCollector: Monitoring parent process with id: '5348'
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.543, 825954002022, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:55902 
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.559, 825954052460, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:16.569, 825954082327, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:16.569, 825954082595, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.661, 825954363265, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.667, 825954379710, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Users\\Emir\\source\\repos\\VVS-ZADACA2\\Filmoteka\\Unit Testovi\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\3.1.403\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\3.1.403\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Users\\Emir\\source\\repos\\VVS-ZADACA2\\Filmoteka\\Unit Testovi\\bin\\Debug\\fine-code-coverage\\_outputfolder</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Users\\Emir\\source\\repos\\VVS-ZADACA2\\Filmoteka\\Unit Testovi\\bin\\Debug\\fine-code-coverage\\Unit Testovi.dll"
+  ]
+}
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.725, 825954557857, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.727, 825954561165, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\3.1.403\Extensions'.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.727, 825954561379, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.738, 825954594577, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.738, 825954595607, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.738, 825954596034, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.738, 825954596229, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.739, 825954599484, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\3.1.403\Extensions,C:\Program Files\dotnet\sdk\3.1.403
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954604895, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954605473, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954605617, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954605733, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954605957, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954606306, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\3.1.403\Extensions,C:\Program Files\dotnet\sdk\3.1.403
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.741, 825954606535, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\3.1.403\Extensions,C:\Program Files\dotnet\sdk\3.1.403
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.742, 825954608402, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.743, 825954612177, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 16196, 1, 2020/12/02, 02:57:16.745, 825954617348, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.746, 825954620183, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.747, 825954621923, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 16196, 1, 2020/12/02, 02:57:16.748, 825954626466, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.748, 825954627685, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\3.1.403\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.748, 825954627868, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.749, 825954628005, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.749, 825954628123, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.749, 825954628253, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:16.749, 825954628375, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.751, 825954634267, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 16196, 1, 2020/12/02, 02:57:16.751, 825954634741, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.758, 825954656331, datacollector.dll, Listening on Endpoint : 127.0.0.1:55904
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.766, 825954680572, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:16.811, 825954818635, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 2192
+}
+TpTrace Information: 0 : 16196, 5, 2020/12/02, 02:57:17.000, 825955391881, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 16196, 5, 2020/12/02, 02:57:17.000, 825955392105, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.546, 825957054899, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.587, 825957177958, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.587, 825957179366, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestZamjenskiObjekat - aef9dec6-1181-fac1-2596-b31421e8da47' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.679, 825957457437, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.684, 825957471952, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.699, 825957518225, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.703, 825957530638, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestZamjenskiObjekat - aef9dec6-1181-fac1-2596-b31421e8da47' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.716, 825957570069, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.717, 825957571915, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.717, 825957572416, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakIstiGlumci - 307a9543-71bf-45b1-736e-e86a33581b25' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.722, 825957588508, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.723, 825957590344, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.723, 825957591072, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.723, 825957591480, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakIstiGlumci - 307a9543-71bf-45b1-736e-e86a33581b25' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.724, 825957595375, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.725, 825957597105, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.725, 825957597387, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakRazlicitiGlumci - ccc8a4b1-0bba-0d1f-634a-2a0e08c0293a' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.727, 825957604168, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.728, 825957606091, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.728, 825957606741, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.728, 825957607188, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakRazlicitiGlumci - ccc8a4b1-0bba-0d1f-634a-2a0e08c0293a' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.729, 825957610856, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.730, 825957612644, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.730, 825957613134, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakIzuzetak - 83c1ddde-4e31-66fc-a376-4096e8037e77' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.733, 825957620849, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.733, 825957622654, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.733, 825957623346, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.734, 825957624496, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajNastavakIzuzetak - 83c1ddde-4e31-66fc-a376-4096e8037e77' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.735, 825957628241, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.736, 825957630086, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.736, 825957630429, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSveFilmoveSGLumcima2 - b1e684c9-ba75-f6f1-bf40-5e4e7cedaaa8' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.741, 825957646622, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.742, 825957649192, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.742, 825957649992, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.742, 825957650505, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSveFilmoveSGLumcima2 - b1e684c9-ba75-f6f1-bf40-5e4e7cedaaa8' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.744, 825957655462, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.745, 825957657228, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.745, 825957657523, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSrednjuOcjenuSvihFilmova - ff1b4d14-945d-8df7-b04f-61053947ac65' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.748, 825957667489, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.749, 825957670305, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.749, 825957671141, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.749, 825957671729, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSrednjuOcjenuSvihFilmova - ff1b4d14-945d-8df7-b04f-61053947ac65' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.751, 825957676520, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.752, 825957678844, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.752, 825957679181, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSrednjuOcjenuSvihFilmovaPrazan - 5ce7f736-72c3-ced1-6d90-e30c94cad1f2' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.754, 825957686731, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.755, 825957688409, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.755, 825957689056, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.755, 825957689454, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSrednjuOcjenuSvihFilmovaPrazan - 5ce7f736-72c3-ced1-6d90-e30c94cad1f2' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.756, 825957692686, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.757, 825957694405, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.757, 825957694701, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestWatchlistKonstruktorIzuzetak - f5a195b5-097c-875e-c0c3-04764ba84a21' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.759, 825957700092, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.759, 825957701689, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.759, 825957702117, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.759, 825957702424, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestWatchlistKonstruktorIzuzetak - f5a195b5-097c-875e-c0c3-04764ba84a21' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.761, 825957707451, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.762, 825957709100, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.762, 825957709394, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProdužiRokValidan - b1426bd4-5b5c-cdf7-b56e-482bb38d32fa' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.770, 825957734534, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.771, 825957736439, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.771, 825957737104, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.771, 825957737507, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProdužiRokValidan - b1426bd4-5b5c-cdf7-b56e-482bb38d32fa' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.825, 825957901257, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.825, 825957903217, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.826, 825957903573, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciIzuzetak - cad8ba2a-9c27-403a-f461-230cd3f8eda3' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.831, 825957918616, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.831, 825957920517, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.831, 825957921162, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.832, 825957921576, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciIzuzetak - cad8ba2a-9c27-403a-f461-230cd3f8eda3' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.833, 825957925021, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.833, 825957926572, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.833, 825957926824, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciUsername - 34271688-a4e2-dbb0-0f29-edee8d7255ec' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.835, 825957932556, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.836, 825957934257, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.836, 825957934746, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.836, 825957935061, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciUsername - 34271688-a4e2-dbb0-0f29-edee8d7255ec' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.837, 825957938085, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.837, 825957939560, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.838, 825957939848, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciPassword - 3e680ae4-a773-3605-0554-850350f5daa3' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.839, 825957943995, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.839, 825957945629, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.840, 825957946158, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.840, 825957946488, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestAutomatskiKorisničkiPodaciPassword - 3e680ae4-a773-3605-0554-850350f5daa3' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.841, 825957950027, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.841, 825957951538, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.841, 825957951810, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakUsername - 39b408a3-583c-b5a0-7503-f509f012c8d2' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.843, 825957957019, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.844, 825957958875, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.844, 825957959422, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.844, 825957959789, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakUsername - 39b408a3-583c-b5a0-7503-f509f012c8d2' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.845, 825957962943, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.846, 825957964418, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.846, 825957964663, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakPassword - 86fa567a-4e12-53dd-0313-f751ffd2eb88' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.847, 825957969583, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.848, 825957971324, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.848, 825957971814, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.848, 825957972182, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakPassword - 86fa567a-4e12-53dd-0313-f751ffd2eb88' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.849, 825957975361, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.850, 825957977059, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.850, 825957977339, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakIme - 41fd401d-9afa-9f74-6f5c-6cf219b029c2' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.852, 825957982517, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.852, 825957984148, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.852, 825957984638, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.852, 825957984972, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakIme - 41fd401d-9afa-9f74-6f5c-6cf219b029c2' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.853, 825957988303, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.854, 825957989964, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.854, 825957990228, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakPrezime - 5496d222-d9d9-035e-24df-a9776c77309d' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.856, 825957996224, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.857, 825957998202, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.857, 825957998741, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.857, 825957999096, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktorIzuzetakPrezime - 5496d222-d9d9-035e-24df-a9776c77309d' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.858, 825958002230, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.859, 825958003725, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.859, 825958004021, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktor - 12b3125e-4566-927c-a90b-70d580a15a51' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.860, 825958008040, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.861, 825958009799, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.861, 825958010304, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.861, 825958010650, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostKonstruktor - 12b3125e-4566-927c-a90b-70d580a15a51' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.862, 825958013906, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.862, 825958015480, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.862, 825958015767, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProduziRokIzuzetak - bf2ecff7-0441-824e-00de-bca953b0fadc' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.864, 825958021032, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.865, 825958022629, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.865, 825958023088, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.865, 825958023420, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestProduziRokIzuzetak - bf2ecff7-0441-824e-00de-bca953b0fadc' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.869, 825958036998, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.870, 825958038685, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.870, 825958038981, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestClanKonstruktor - 9ab13ecb-b998-21e4-8673-9699e018df29' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.872, 825958044006, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.872, 825958045578, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.872, 825958046060, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.873, 825958046435, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestClanKonstruktor - 9ab13ecb-b998-21e4-8673-9699e018df29' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.874, 825958049646, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.874, 825958051226, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.874, 825958051487, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestResetujListe - b45e19f7-dfb7-efd1-2a7c-9c68ce58acc9' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.876, 825958056058, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.876, 825958057677, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.876, 825958058139, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.877, 825958058503, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestResetujListe - b45e19f7-dfb7-efd1-2a7c-9c68ce58acc9' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.878, 825958062211, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.878, 825958063743, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.878, 825958064093, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajWatchlistu - b05d0ee2-def9-a4ac-4204-55ae9d535972' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.880, 825958069773, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.881, 825958071338, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.881, 825958071827, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.881, 825958072147, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajWatchlistu - b05d0ee2-def9-a4ac-4204-55ae9d535972' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.882, 825958075185, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.883, 825958076667, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.883, 825958076911, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajWatchlistuNevalidnoIme - b77e61f6-961e-3255-4cea-b7287e0b046c' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.885, 825958083058, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.885, 825958084650, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.885, 825958085139, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.885, 825958085579, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDodajWatchlistuNevalidnoIme - b77e61f6-961e-3255-4cea-b7287e0b046c' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.887, 825958088816, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.887, 825958090348, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.887, 825958090603, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima2 - 0b1a277a-5ea3-c22e-a0d5-2071500cf294' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.889, 825958097706, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.890, 825958099301, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.890, 825958099785, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.890, 825958100128, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima2 - 0b1a277a-5ea3-c22e-a0d5-2071500cf294' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.891, 825958103404, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.892, 825958105609, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.892, 825958105986, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima1 - a5a51751-0b91-1792-b4d7-773d10f46762' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.895, 825958114009, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.895, 825958115716, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.896, 825958116287, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.896, 825958116629, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima1 - a5a51751-0b91-1792-b4d7-773d10f46762' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.897, 825958119892, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.897, 825958121448, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.897, 825958121717, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima3 - 5237efcb-1dfd-8c0c-9928-ddd872268d8c' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.899, 825958128119, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.900, 825958129781, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.900, 825958130303, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.900, 825958130662, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima3 - 5237efcb-1dfd-8c0c-9928-ddd872268d8c' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.901, 825958133782, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.902, 825958135287, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.902, 825958135537, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima4 - 66b33d35-cbdf-c6db-f5e2-bd2af0c7a32e' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.904, 825958141323, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.904, 825958142987, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.904, 825958143471, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.905, 825958143843, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestRadSaKorisnicima4 - 66b33d35-cbdf-c6db-f5e2-bd2af0c7a32e' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.906, 825958147482, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.906, 825958149189, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.906, 825958149555, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSveFilmoveSGLumcima1 - ffd38ca0-f8ca-4a3f-f9f8-5898c8624527' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.908, 825958154462, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.909, 825958156724, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.909, 825958157328, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.909, 825958157739, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestDajSveFilmoveSGLumcima1 - ffd38ca0-f8ca-4a3f-f9f8-5898c8624527' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.919, 825958188690, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.920, 825958190598, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.920, 825958191030, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestWatchlistGetters - 4c112a7f-3f51-b744-8a86-026b4873fce5' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.922, 825958196472, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.922, 825958198149, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.923, 825958198739, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.923, 825958199071, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestWatchlistGetters - 4c112a7f-3f51-b744-8a86-026b4873fce5' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.924, 825958202723, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.925, 825958204567, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.925, 825958204888, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOcjenaFilma - 6b3c749b-c159-aafa-2990-c9e4026f0c9b' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.927, 825958210655, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.927, 825958212356, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.927, 825958212884, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.927, 825958213229, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOcjenaFilma - 6b3c749b-c159-aafa-2990-c9e4026f0c9b' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.929, 825958216682, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.929, 825958218667, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.929, 825958219064, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOcjenaFilmaNevalidna - 0de731af-9fce-2c49-97db-103c13d35c18' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.932, 825958226268, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.932, 825958228361, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.933, 825958229142, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.933, 825958229642, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestOcjenaFilmaNevalidna - 0de731af-9fce-2c49-97db-103c13d35c18' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.934, 825958233247, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.935, 825958235384, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.935, 825958235775, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGlumciFilmaGreska - 1fd12fe1-cad1-16ba-f60d-5607f5c76911' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.937, 825958243515, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.938, 825958246224, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.939, 825958247343, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.939, 825958247853, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGlumciFilmaGreska - 1fd12fe1-cad1-16ba-f60d-5607f5c76911' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.940, 825958252776, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.941, 825958255122, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.941, 825958255471, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestKonstruktorFilmaNull - 715aaf6e-0938-2509-4933-188da981eb81' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.943, 825958261242, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.944, 825958263752, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.944, 825958264535, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.944, 825958265025, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestKonstruktorFilmaNull - 715aaf6e-0938-2509-4933-188da981eb81' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.946, 825958269205, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.947, 825958271566, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.947, 825958271904, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestFilmIdGet - a8cc0d83-d5b1-9283-3596-9227ef7276ff' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.948, 825958276782, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.949, 825958279046, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.949, 825958279814, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.949, 825958280303, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestFilmIdGet - a8cc0d83-d5b1-9283-3596-9227ef7276ff' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.951, 825958285027, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.952, 825958287326, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.952, 825958287746, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostGetters - 27b7b273-e32f-a952-1733-b8680029fe70' started.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.954, 825958293429, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.954, 825958295204, datacollector.dll, Blame Collector : Test Case End
+TpTrace Error: 0 : 16196, 6, 2020/12/02, 02:57:17.955, 825958295877, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.955, 825958296214, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TestGostGetters - 27b7b273-e32f-a952-1733-b8680029fe70' completed
+TpTrace Information: 0 : 16196, 6, 2020/12/02, 02:57:17.959, 825958309200, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.034, 825958536024, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.034, 825958538291, datacollector.dll, Blame Collector : Session End
+TpTrace Error: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958539127, datacollector.dll, DataCollectionAttachmentManager.GetAttachments: Fail to get attachments: System.Collections.Generic.KeyNotFoundException: The given key 'Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollectionContext' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectionAttachmentManager.GetAttachments(DataCollectionContext dataCollectionContext) 
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958539425, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958539598, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958540017, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958540248, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958540778, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958541173, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958541313, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 16196, 1, 2020/12/02, 02:57:18.035, 825958541424, datacollector.dll, Program.Main: exiting datacollector process.

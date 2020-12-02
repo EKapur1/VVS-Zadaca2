@@ -144,7 +144,22 @@ namespace Filmoteka
 
         public void DodajNastavak(Film film, double rating, bool istiGlumci, List<string> noviGlumci = null)
         {
-            throw new NotImplementedException();
+            var filtriranifilmovi = new List<Film>();
+            foreach (var i in filmovi)
+            {
+                if (i.Naziv.Contains(film.Naziv))
+                {
+                    filtriranifilmovi.Add(i);
+                }
+            }
+            if (filtriranifilmovi.Count.Equals(0)) throw new ArgumentNullException();
+
+            Film pom = new Film(film.Naziv + " " + (filtriranifilmovi.Count + 1), rating, film.Žanr, film.Glumci);
+            if (!istiGlumci)
+            {
+                pom.Glumci = noviGlumci;
+            }
+            filmovi.Add(pom);
         }
 
         

@@ -28,6 +28,7 @@ namespace Unit_Testovi
         #endregion
 
         #region TDD
+        // GRESKA var filmoteka pamti vrijednosti iz drugih testova samim tim testovi padaju kada se sve pokrene a prolaze samostalno
 
         [TestMethod]
         public void TestDodajNastavakIstiGlumci()
@@ -41,6 +42,7 @@ namespace Unit_Testovi
 
             Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.Žanr == Zanr.Akcija && f.Glumci.Count == 2) != null);
         }
+        // GRESKA var filmoteka pamti vrijednosti iz drugih testova samim tim testovi padaju kada se sve pokrene a prolaze samostalno
 
         [TestMethod]
         public void TestDodajNastavakRazlicitiGlumci()
@@ -54,6 +56,7 @@ namespace Unit_Testovi
 
             Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.Žanr == Zanr.Akcija && f.Glumci.Count == 3) != null);
         }
+        // GRESKA var filmoteka pamti vrijednosti iz drugih testova samim tim testovi padaju kada se sve pokrene a prolaze samostalno
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
